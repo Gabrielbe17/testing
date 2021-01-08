@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Premier League</title>
+    <link  rel="stylesheet" href="PremLeague.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+  
+
+    <style>
+    
+        .navegacion a:hover{
+
+            color: red;
+            border-bottom: 3px solid red;
+        }
+
+        
+        body{
+            font-family: 'Poppins';
+            margin: 0;
+            background-color: #1C2541;
+        
+        }
+
+
+        .navegacion a{
+            text-decoration: none;
+            color: white;
+            margin-right: 100px;
+            font-size: 20px;
+            
+        }
+
+
+        .navegacion li{
+        list-style: none;
+        }
+
+
+        nav .navegacion {
+            display: flex;
+            position: absolute;
+            top: 10px;
+        }
+
+        
+        p{
+            margin-left: 30px;
+            margin-right: 30px;
+            font-size: 25px;
+                
+        }
+        
+        h3{
+            margin-left: 30px;
+            margin-right: 30px;
+            font-size: 35px;
+        }
+            
+        h2{
+            margin-left: 30px;
+            margin-right: 30px;
+            font-size: 40px;
+                
+        }
+
+
+        h4{
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+    </style>
+
+
+     <!-- PORTADA -->
+    <div class ="PORTADA">
+
+        
+        <header>
+            <nav>
+            
+                <ul class="navegacion">
+                    <li><a href="#novedades">NOVEDADES</li></a>
+                    <li><a href="#historia">HISTORIA</li></a> 
+                    <li><a href="#Sistema">SISTEMA DE COMPETICIÓN</li></a>
+                    <li><a href="#Trofeo">TROFEO</li></a>
+                </ul>
+                
+            
+            </nav>
+        </header>
+
+  
+            <div class="titular">
+
+                <a href="https://www.premierleague.com/" target="_blank">
+                <font color='White'><h1 align='center'>PREMIER LEAGUE</h1></font>
+                </a>
+
+                
+            </div>
+
+            <style>
+                .titular{
+                    font-size: 70px;
+                    hyphens: auto;
+                }
+                .titular :hover{
+                
+                    box-shadow: inset 0 0 20px hsla(199, 63%, 71%, 0.5), 0 0 20px rgba(36, 179, 41, 0.4);
+                    outline-color: rgba(49, 138, 172, 0);
+                    outline-offset: 80px;
+                    text-shadow: 1px 1px 6px #fff;
+                    
+                }
+            </style>
+           
+    </div>
+       <!-- FIN DE PORTADA -->
+
+            <style>
+
+                .PORTADA{
+                    margin-left: auto;
+                    margin-right: auto;
+                    background: url(images/stadium.jpg);
+                    height: 20vh;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    padding-top: 400px;
+                    padding-bottom: 400px;
+                }
+            </style>
+
+
+          <!-- NOVEDADES -->
+    <section>
+        <div id="novedades">
+            <h2 align="center">NOVEDADES</h2>
+            <div id="publicaciones">
+                
+                <div class="publicacion1"> 
+                
+                    <img src="images/manU.jpg" width="99%" >
+                    <h3>El Manchester United atropella al leeds de bielsa</h3>
+                    <a href="https://www.sport.es/es/noticias/premier-league/manchester-united-atropella-leeds-8240069" target="_blank">Leer Más<i class="fas fa-angel-double fa-angle-double-right "></i></a>
+                    
+                </div>
+                <div class="publicacion2">
+                    
+                    <img src="images/manCity.jpg" width="99%">
+                    <h3>El City pesca en el naufragio del Arsenal</h3>
+                    <a href="https://www.sport.es/es/noticias/england-league-cup/city-pesca-naufragio-arsenal-11418150" target="_blank">Leer Más<i class="fas fa-angel-double fa-angle-double-right "></i></a>
+                
+                </div>
+            </div>
+        </div>
+            
+            <style>
+
+                #publicaciones h3{
+                    hyphens: auto;
+                    margin-right: 30px;
+                }
+            
+
+
+                #novedades{
+                    background-color: #1C2541;
+                    color: white;
+                }
+
+
+                .publicacion1{
+                    padding-top:0px;
+                    width: 90%;
+                    border: 1px solid #DDCFCF;
+                    width: 500px;
+                    box-shadow: -13px -9px 14px rgba(0, 0, 0, 0.47);
+                    padding-bottom: 50px;
+                    margin-left: 100px;
+
+
+                }
+
+                .publicacion1 img{
+                    background-size: cover;
+                }
+
+                .publicacion2{
+                    padding-top: 0px;
+                    width: 100%;
+                    border: 1px solid #DDCFCF;
+                    width: 500px;
+                    box-shadow: -13px -9px 14px rgba(29, 24, 26, 0.47);
+                    padding-bottom: 50px;
+                    
+
+                }
+
+                
+
+                #publicaciones{
+                    display:grid;
+                    grid-template-columns: 1fr 1fr;
+
+                }
+
+                #publicaciones a{ 
+                
+                    margin-left: 30px;
+                    padding-top: 0px;
+                }
+
+                img{
+                    transition: all 0.5s ease;
+                    border-style: solid;
+                    border-color: whitesmoke;
+                }
+
+
+                #publicaciones img:hover{
+
+                    transform: scale(1.3);
+                }
+                #publicaciones a{
+                    text-decoration: underline;
+                    color: lightcyan;
+                    background: steelblue;
+                    padding:14px 20px 14px 20px;
+                }
+
+
+        
+                
+            </style>
+
+    </section>
+
+
+        <!-- FIN DE NOVEDADES -->
+        
+
+
+        
+
+        <!-- INICIO DE HISTORIA -->
+    <section>
+        <div id="historia">
+
+            <h2 align="center">HISTORIA</h2>
+
+            <p>A principios de la década de 1990, los clubes de la Primera División inglesa creían que era necesaria una reestructuración radical del fútbol para que ellos y el juego en general se desarrollaran y prosperaran.
+                Así que el 17 de julio de 1991, firmaron el Acuerdo de Miembros Fundadores, estableciendo los principios básicos para la creación de la Premier League.
+                La Liga tendría independencia comercial de la Liga de Fútbol y de la FA, dejándola libre para organizar su propia emisión y acuerdo de patrocinio.<br><br>
+                
+                
+                
+                El 20 de febrero de 1992, los 22 clubes de la Primera División renunciaron en masa a la Liga de Fútbol y tres meses más tarde, el 27 de mayo, se estableció la Liga de Primera División como sociedad anónima.
+                El primer acuerdo televisivo se firmó con la emisora de televisión de pago BSkyB, lo que supuso una medida radical en aquel momento, pero Sky ha estado siempre presente y ha desempeñado un papel fundamental en el desarrollo de la Liga hasta sus niveles actuales.<br><br>
+                
+                
+                
+                La campaña inaugural de la Premier League comenzó el sábado 15 de agosto de 1992, con 22 clubes.
+                Los 22 miembros inaugurales de la nueva Premier League fueron Arsenal, Aston Villa, Blackburn Rovers, Chelsea, Coventry City, Crystal Palace, Everton, Ipswich Town, Leeds United, Liverpool, Manchester City, Manchester United, Middlesbrough, Norwich City, Nottingham Forest, Oldham Athletic, Queens Park Rangers, Sheffield United, Sheffield Wednesday, Southampton, Tottenham Hotspur y Wimbledon.<br><br>
+                
+                
+                
+                De estos, seis clubes han estado siempre presentes en la Premier League: Arsenal, Chelsea, Everton, Liverpool, Manchester United y Tottenham Hotspur. 
+                Cuando se formó la Premier League, siempre hubo la intención de reducir el número de clubes a 20 para promover el desarrollo y la excelencia a nivel de club y a nivel internacional. Esto se logró al final de la temporada 1994/95, cuando cuatro clubes descendieron y sólo dos ascendieron.
+                
+            </p>
+
+        </div>
+        
+            <style>
+
+  
+    
+                #historia{
+                    padding-top: 15px;
+                    background: url(images/liv.jpg);
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: 20vh;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    padding-top: 40px;
+                    padding-bottom:1000px;
+                    
+                    
+                }
+
+                #historia h2 {
+                    color: #fff;
+
+                }
+                #historia p {
+                    color: #fff;
+
+                }
+
+            </style>
+    </section>
+    <!-- FIN DE HISTORIA -->
+
+
+    <!-- SISTEMA DE COMPETICIÓN -->
+    <section>
+        <div id="Sistema">
+            <h2 align="center">SISTEMA DE COMPETICIÓN</h2>
+            <p>Hay 20 equipos en la Premier League, durante cada temporada (desde agosto hasta mayo), cada equipo se enfrenta dos veces con el resto, una vez en su estadio y otra en el de sus contrincantes, en un total de 38 partidos por cada equipo. Al final de cada temporada los tres últimos equipos de la clasificación descienden a la Football League Championship y son sustituidos por los dos mejores de la Football League Championship, junto al ganador de un sistema de play-off que se juega entre el tercero, cuarto, quinto y sexto de esa misma división.<br><br>
+
+            Los cuatro primeros lugares clasifican para la Liga de Campeones de la UEFA (los tres primeros entran directamente a la fase de grupos y el cuarto a la tercera ronda de clasificación). El quinto lugar se clasifica automáticamente a la UEFA Europa League, y entra en la primera ronda de clasificación. El sexto y el séptimo también pueden clasificar, dependiendo de lo que pase en las dos competiciones de copa, la Copa de Inglaterra, y la Copa de la Liga de Inglaterra. Si el campeón y el subcampeón de la Copa de Inglaterra finalizan entre los cinco primeros, el lugar en la Copa de la UEFA iría para el sexto lugar de la Premier League. Si la Copa de la Liga la gana un equipo que ya ha clasificado a una competición europea, el lugar del ganador de la Copa de la Liga va hacia el equipo mejor clasificado que no haya clasificado a Europa (al contrario de la Copa de Inglaterra, no se le da el lugar al subcampeón). Además, el campeón disputa la Community Shield, contra el ganador de la Copa de Inglaterra de esa misma temporada.</p>
+
+
+        </div>
+        <style>
+            #Sistema{
+                background: url(images/son.jpg);
+                margin-left: auto;
+                margin-right: auto;
+                height: 20vh;
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding-top: 50px;
+                padding-bottom: 900px;
+
+            }
+            #Sistema h2{
+
+                color:#DDCFCF;
+            }
+            #Sistema p{
+            
+                color: #DDCFCF;
+            }
+        </style>
+
+    </section>
+
+    
+    <!-- TROFEO -->
+
+    <section>
+        <div id="Trofeo">
+            <h2 align="center">TROFEO</h2>
+            <p>Royal Jewellers Asprey of London creó el trofeo actual de la Premier League. Éste pesa 4 stones (25 kg), tiene una altura de 30 pulgadas (76 cm), una anchura de 17 pulgadas (43 cm) y una profundidad de 9,8 pulgadas (25 cm).<br><br>
+
+                Su cuerpo principal es de plata genuina y de plata dorada, mientras que su pedestal está hecho de malaquita, una piedra semipreciosa. El pedestal tiene una franja plateada alrededor de su circunferencia, en la cual se hallan escritos los nombres de los clubes que han ganado la liga desde su aparición en 1992. El color verde de la malaquita también es para simbolizar el terreno verde de cada estadio donde se disputan los juegos.<br><br>
+                
+                El diseño del trofeo se halla inspirado en la heráldica de los Tres Leones que está asociada con el fútbol inglés. Dos de los leones se hallan a cada uno de los lados superiores del trofeo, mientras que el tercero es simbolizado por el capitán del equipo triunfador cuando levanta al copa. La corona dorada igualmente sirve para coronar al nuevo campeón al final de cada temporada.<br><br>
+                
+                En 2004, se creó una versión especial de oro del trofeo para conmemorar la temporada en que el Arsenal obtuvo el título sin haber sido derrotado en ningún solo juego.
+            </p>
+        
+
+
+
+        </div>
+
+        <style>
+
+           
+                 #Trofeo{
+
+                    background: url(images/Trofeo.jpg);
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: 20vh;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    padding-top: 50px;
+                    padding-bottom: 800px
+                    
+                   
+                     
+                 }
+
+                 #Trofeo p{
+                    
+                    color: gainsboro;
+                 }
+                
+                 #Trofeo h2{
+                     
+                    color: #fff;
+                    font-size: 50px;
+                 }
+        </style>
+
+
+
+    </section>
+
+ 
+
+    <!-- FIN DE TROFEO---->
+      
+
+</body>
+</html> 
